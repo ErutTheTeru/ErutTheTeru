@@ -44,7 +44,7 @@ getgenv().Setting = {
         ["Z"] = {["Enable"] = true, ["HoldTime"] = 1.25},
         ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
         ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
-        ["V"] = {["Enable"] = true, ["HoldTime"] = 0}
+        ["V"] = {["Enable"] = false, ["HoldTime"] = 0}
     },
     ["Fruit"] = {
         ["Enable"] = true,
