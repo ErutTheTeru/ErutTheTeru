@@ -3,8 +3,10 @@ getgenv().Setting = {
         ["Team"] = "Pirates",
         ["Min"] = 0,
         ["Max"] = 30000000,
-        ["Webhook"] = false, 
-        ["Url"] = "" -- paste you link webhook discord
+    },
+    ["Webhook"] = {
+        ["Enabled"] = true, 
+        ["Url"] = "https://discord.com/api/webhooks/1155320797867561091/98jhEvNhwKwihhk9OUM_k16YkQAPyg83aKapZnozkxyL5dATYtM98Iw_GRuypc3u9zk1"
     },
     ["Skip"] = {
         ["V4"] = true,
@@ -56,13 +58,13 @@ getgenv().Setting = {
         ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
     },
     ["Sword"] = {
-        ["Enable"] = false,
+        ["Enable"] = true,
         ["Delay"] = 1,
         ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
         ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
     },
     ["Gun"] = {
-        ["Enable"] = false,
+        ["Enable"] = true,
         ["GunMode"] = false, 
         ["Delay"] = 1.75,
         ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
